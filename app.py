@@ -20,5 +20,9 @@ def dashboard():
     generate_dashboard()
     return render_template("dashboard.html")
 
+@app.route("/awareness")
+def awareness():
+    return render_template("awareness.html")
+    
 if __name__ == "__main__":
     app.run(debug=True)
