@@ -38,6 +38,7 @@ phishing_webapp/
 ├── templates/
 │   ├── index.html          # Home page
 │   ├── result.html         # Detection result page
+|   |── awareness.html      # Description of phishing
 │   └── dashboard.html      # Dashboard page
 ├── model.py                # ML models + Kali tool integrations
 ├── app.py                  # Flask web application
